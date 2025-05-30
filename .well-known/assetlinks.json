@@ -35,5 +35,17 @@
         "57:AA:D0:04:83:DC:81:1D:CF:DC:0D:73:2D:72:64:5D:36:8E:01:8A:3D:95:68:0A:E8:0B:1C:6C:5F:8D:7E:3B"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.ccc.necom.dev",
+      "sha256_cert_fingerprints": [
+        "AC:FC:A5:DF:69:FA:3F:CA:20:FF:A4:3D:E9:33:6A:5A:9F:F8:88:03:13:57:AA:00:D6:20:8D:70:B4:1A:E2:80"
+      ]
+    }
   }
 ]
