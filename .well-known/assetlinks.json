@@ -1,9 +1,52 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "eu.ccc.necom.dev",
-    "sha256_cert_fingerprints":
-    ["AC:FC:A5:DF:69:FA:3F:CA:20:FF:A4:3D:E9:33:6A:5A:9F:F8:88:03:13:57:AA:00:D6:20:8D:70:B4:1A:E2:80"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.ccc.mobile",
+      "sha256_cert_fingerprints": [
+        "8E:07:B2:9B:1A:4A:F5:4E:D5:53:28:8F:D8:E6:04:FE:1B:B5:CF:37:D1:9B:A3:58:C8:A5:48:24:FD:8C:FE:D4",
+        "27:08:71:E7:0F:22:ED:4C:9E:DE:BF:79:36:06:00:8E:6F:72:7A:3C:BE:22:B4:CC:1C:88:F5:52:14:CA:E4:A7"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.ccc.mobile.debug",
+      "sha256_cert_fingerprints": [
+        "57:AA:D0:04:83:DC:81:1D:CF:DC:0D:73:2D:72:64:5D:36:8E:01:8A:3D:95:68:0A:E8:0B:1C:6C:5F:8D:7E:3B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.ccc.mobile.qa",
+      "sha256_cert_fingerprints": [
+        "57:AA:D0:04:83:DC:81:1D:CF:DC:0D:73:2D:72:64:5D:36:8E:01:8A:3D:95:68:0A:E8:0B:1C:6C:5F:8D:7E:3B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.ccc.necom.dev",
+      "sha256_cert_fingerprints": [
+        "AC:FC:A5:DF:69:FA:3F:CA:20:FF:A4:3D:E9:33:6A:5A:9F:F8:88:03:13:57:AA:00:D6:20:8D:70:B4:1A:E2:80",
+        "CF:21:A2:A6:E1:74:D2:B5:A4:41:1C:FE:95:9C:59:EA:E6:7A:4F:59:DC:81:00:8D:E0:9E:43:04:CF:2A:5D:ED"
+      ]
+    }
   }
-}]
+]
